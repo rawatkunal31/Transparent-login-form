@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Lora&family=Ubuntu:wght@300&display=swap');
+
+*{margin: 0;
+padding: 0;}
+
+@media (max-width:320px)  {
+    .container{
+        top: 25%;
+        left: 15%;
+        width: 75%;   
+        position: absolute;
+        color: white;
+    }
+}
+@media (min-width:320px) and (max-width:640px){
+    .container{
+        position: absolute;
+        color: white;
+        top: 30%;
+        left: 20%;
+    }
+}
+
+@media (min-width:640px) and (max-width:1080px){
+    .container{
+        position: absolute;
+        color: white;
+        top: 30%;
+        left: 30%;
+        width: 50%;
+    }
+}
+@media (min-width: 1080px){
+
+    .container{
+        color: white;
+        position: absolute;
+        top: 35%; left: 40%;
+        width: 25%;
+    }
+}
+
+
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover
+}
+
+
+
+.container h1{
+    font-size: 40px;
+    width: 50%;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 15px 0;
+    display: inline-block;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 22px 0px ;
+}
+.box input{
+    background: none;
+    width: 75%; 
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    font-size: 18px;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: purple;
+    background-color: white;
+    opacity: 0.5;
+}
